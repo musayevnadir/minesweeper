@@ -1,0 +1,26 @@
+/** @format */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+}
+
+.qirmizi {
+  background-color: red;
+}
+
+.yashil {
+  background-color: green;
+}
